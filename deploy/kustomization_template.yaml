@@ -14,11 +14,6 @@ resources:
   - subscription.yaml
 
 patchesJson6902:
-- path: dir_patch.json
-  target:
-    version: v1
-    kind: ConfigMap
-    name: policies-github-path
 - path: channel_patch.json
   target:
     group: apps.open-cluster-management.io
